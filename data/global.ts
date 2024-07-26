@@ -36,8 +36,8 @@ export const routes: Route[] = [
     path: "/projects",
   },
   {
-    title: "Designs",
-    path: "/designs",
+    title: "Experiences",
+    path: "/experiences",
   },
 ];
 
@@ -62,8 +62,8 @@ export const footer: Footer = {
           leavesWebsite: false,
         },
         {
-          name: "Designs",
-          link: "/designs",
+          name: "Experiences",
+          link: "/experiences",
           leavesWebsite: false,
         },
       ],
