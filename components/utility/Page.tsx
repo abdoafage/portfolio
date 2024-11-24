@@ -59,7 +59,7 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
         ></meta> */}
         <script
           async
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+          src={`https://www.googletagmanager.com/gtag/js?id=G-N73YQBKQK3`}
         />
         <script
           dangerouslySetInnerHTML={{
@@ -76,7 +76,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+              gtag('config', 'G-N73YQBKQK3', {
                 page_path: window.location.pathname,
               });
           `,
